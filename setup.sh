@@ -28,6 +28,7 @@ sudo mv pilvilinna-api /var/www/api
 sudo mv pilvilinna-portal /var/www/portal
 
 cd /var/www/api
+mkdir -r /var/www/api/files
 composer install
 
 cd /var/www/portal
